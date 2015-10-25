@@ -2,7 +2,7 @@
 
 <div class="container last-paragraph">
 
-
+<?php the_content(); ?>
 
 </div>
 
