@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-<div class="container last-paragraph">
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 last-paragraph">
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	<?php if ( is_front_page() ) { ?>
@@ -11,6 +13,8 @@
 	<?php the_content(); ?>
 <?php endwhile; ?>
 
+		</div>
+	</div>
 </div>
 
 <?php get_footer(); ?>

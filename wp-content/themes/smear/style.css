@@ -160,6 +160,13 @@ div.wpcf7-response-output {
   text-align: center;
 }
 
+/*style nav items when current*/
+
+li.current-menu-item a:link,
+li.current-menu-item a:visited {
+  background-color: #e7e7e7;
+}
+
 
 
 @media screen and (max-width: 991px) {
