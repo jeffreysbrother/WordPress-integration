@@ -20,10 +20,10 @@ add_action( 'init', 'register_theme_menus' );
     wp_enqueue_style( 'font-awesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
     wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'badges', get_template_directory_uri() . '/css/badges.css' );
+    wp_enqueue_style( 'google-font', 'https://fonts.googleapis.com/css?family=Oswald:400,300,700' );
 
   }
   add_action( 'wp_enqueue_scripts', 'jb_theme_styles' );
-
 
 
   function jb_theme_js() {

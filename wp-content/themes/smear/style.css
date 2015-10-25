@@ -181,10 +181,18 @@ li.current-menu-item a:visited {
 
 /*blog styles*/
 
-h1 a.blog-link {
+h2 a.blog-link {
   text-decoration: none;
+  text-transform: uppercase;
+  color: #777;
+  font-family: 'Oswald', sans-serif;
 }
 
+ul.post-categories {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 @media screen and (max-width: 991px) {

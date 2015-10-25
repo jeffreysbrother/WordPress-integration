@@ -6,7 +6,10 @@
 
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-    <h1><a  class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+    <h2><a  class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    
+    <p><?php the_category(); ?></p>
+    <p class="text-muted"><?php the_date(); ?></p>
     <p class="text-muted"><?php the_content(); ?></p>
 
   <?php endwhile; else : ?>
