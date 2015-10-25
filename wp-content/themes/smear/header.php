@@ -25,7 +25,7 @@
     <![endif]-->
   </head>
 
-<body>
+<body <?php body_class(); ?>>
 
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -40,14 +40,18 @@
     </div>
 
     <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class= <?php if($pageTitle == "index.php"){ echo "active"; }?>><a href="<?php echo BASE_URL; ?>">Home</a></li>
-        <li class= <?php if($pageTitle == "music.php"){ echo "active"; }?>><a href="<?php echo BASE_URL; ?>music/">Music</a></li>
-        <li class= <?php if($pageTitle == "video.php"){ echo "active"; }?>><a href="<?php echo BASE_URL; ?>video/">Video</a></li>
-        <li class= <?php if($pageTitle == "photos.php"){ echo "active"; }?>><a href="<?php echo BASE_URL; ?>photos/">Photos</a></li>
-        <li class= <?php if($pageTitle == "about.php"){ echo "active"; }?>><a href="<?php echo BASE_URL; ?>about/">About</a></li>
-        <li class= <?php if($pageTitle == "contact.php"){ echo "active"; }?>><a href="<?php echo BASE_URL; ?>contact/">Contact</a></li>
+
+      <?php
+          $defaults = array(
+            'container' => false,
+            'theme_location' => 'primary-menu',
+            'menu_class' => 'nav navbar-nav navbar-right'
+          );
+
+          wp_nav_menu( $defaults );
+       ?>
+
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
 </nav>
