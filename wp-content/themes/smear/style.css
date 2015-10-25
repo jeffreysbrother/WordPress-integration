@@ -179,6 +179,14 @@ li.current-menu-item a:visited {
 
 
 
+/*blog styles*/
+
+h1 a.blog-link {
+  text-decoration: none;
+}
+
+
+
 @media screen and (max-width: 991px) {
   /* line 118, ../sass/screen.scss */
   .gone p {
