@@ -154,6 +154,10 @@ input[type="email"] {
 
 div.wpcf7-validation-errors {
   border: 2px solid red;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok {
   max-width: 367px;
 }
 
