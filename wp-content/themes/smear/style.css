@@ -154,10 +154,16 @@ input[type="email"] {
 
 div.wpcf7-validation-errors {
   border: 2px solid red;
+  max-width: 367px;
 }
 
 div.wpcf7-response-output {
   text-align: center;
+}
+
+h1.entry-title.originals {
+  max-width: 367px;
+  text-transform: lowercase;
 }
 
 /*style nav items when current*/

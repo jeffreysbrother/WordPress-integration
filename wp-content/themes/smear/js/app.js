@@ -15,4 +15,8 @@
               audio.pause();
           });
         });
+
+
+        //scroll to the error
+        
   });
