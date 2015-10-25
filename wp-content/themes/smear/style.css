@@ -7,3 +7,210 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  padding-top: 35px;
+}
+
+/* line 19, ../sass/screen.scss */
+.spacer {
+  margin-top: 45px;
+}
+
+/* line 23, ../sass/screen.scss */
+h5 {
+  font-weight: bold;
+}
+
+/* line 27, ../sass/screen.scss */
+.originals {
+  font-weight: 200;
+  color: #777;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 25px;
+  max-width: 300px;
+}
+
+/* line 38, ../sass/screen.scss */
+.smallish {
+  /***** adds vertical space between thumbnails********/
+  margin-top: 3px;
+}
+
+/* line 42, ../sass/screen.scss */
+.james {
+  margin-bottom: 5px;
+  margin-right: 15px;
+  float: left;
+}
+
+/* line 49, ../sass/screen.scss */
+.go-back {
+  margin-top: 55px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 55, ../sass/screen.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 59, ../sass/screen.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+/* line 60, ../sass/screen.scss */
+body > .container {
+  padding: 35px 15px 0;
+}
+
+/* line 66, ../sass/screen.scss */
+.footer {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+  background-color: #f5f5f5;
+}
+/* line 67, ../sass/screen.scss */
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* icon fonts from font-awesome
+-------------------------------------------------- */
+/* line 83, ../sass/screen.scss */
+.pull-down {
+  padding-top: 20px;
+}
+/* line 84, ../sass/screen.scss */
+.pull-down > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 91, ../sass/screen.scss */
+.pull-down-text {
+  padding-top: 23px;
+}
+
+/* line 95, ../sass/screen.scss */
+.last-paragraph {
+  padding-bottom: 50px;
+}
+
+/* line 99, ../sass/screen.scss */
+.center {
+  margin: auto;
+  float: none;
+  display: table;
+}
+
+/* line 105, ../sass/screen.scss */
+.btn-group-lg > .btn, .btn-lg {
+  margin-top: 15px;
+}
+
+/* line 109, ../sass/screen.scss */
+p.text-center.bg-danger {
+  padding: 5px;
+  border: 1px solid #C284C4;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px #888888;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 118, ../sass/screen.scss */
+  .gone p {
+    display: none;
+  }
+
+  /* line 121, ../sass/screen.scss */
+  .pull-down {
+    padding-top: 13px;
+  }
+
+  /* line 124, ../sass/screen.scss */
+  .footer {
+    height: 56px;
+  }
+
+  /* line 127, ../sass/screen.scss */
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  /* line 130, ../sass/screen.scss */
+  p.text-center.bg-danger {
+    margin: 0;
+  }
+
+  /* line 133, ../sass/screen.scss */
+  p.lead.text-center {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 140, ../sass/screen.scss */
+  .smallish {
+    width: 45%;
+    height: 45%;
+  }
+
+  /* line 144, ../sass/screen.scss */
+  textarea#message {
+    height: 120px;
+  }
+
+  /* line 147, ../sass/screen.scss */
+  .btn-group-lg > .btn, .btn-lg {
+    font-size: 15px;
+  }
+}
+@media (max-width: 670px) {
+  /* line 156, ../sass/screen.scss */
+  audio {
+    margin-bottom: 8px;
+  }
+
+  /* line 161, ../sass/screen.scss */
+  .blueimp-gallery-controls > .indicator {
+    display: none;
+  }
+
+  /* line 167, ../sass/screen.scss */
+  .blueimp-gallery-controls > .prev,
+  .blueimp-gallery-controls > .next {
+    border: none;
+  }
+
+  /* line 172, ../sass/screen.scss */
+  .blueimp-gallery > .title {
+    font-size: 16px;
+  }
+
+  /* line 176, ../sass/screen.scss */
+  .james {
+    margin-bottom: 0px;
+    margin-right: 10px;
+    max-width: 135px;
+  }
+
+  /* line 182, ../sass/screen.scss */
+  .about {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
