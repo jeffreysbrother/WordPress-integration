@@ -1,0 +1,83 @@
+.description {
+    word-break: break-word;
+}
+
+.redux-section .accordion-section-title i, .redux-field .accordion-field-title i, .redux-panel .accordion-section-title i {
+    margin-right: 5px;
+}
+
+.accordion-section.redux-main {
+    background: inherit;
+    margin-left: inherit;
+    border-left: inherit;
+    -moz-box-shadow: inherit;
+    -webkit-box-shadow: inherit;
+    padding: inherit;
+    box-shadow: inherit;
+}
+
+.redux-main h3 {
+    margin-top: 0;
+}
+
+.redux_field_th {
+    padding: 10px 0px 0px 0px;
+}
+
+.redux-main .redux-field-container {
+    padding: 7px 0;
+}
+
+.redux-main .select_wrapper {
+    float: none;
+    width: 100%;
+    display: inline-block;
+}
+
+.redux-main .select2-container {
+    margin-right: 0 !important;
+    margin-bottom: 5px !important;
+    width: 100% !important;
+}
+
+.redux-main .select_wrapper:nth-child(odd) {
+    margin-right: 0;
+}
+
+.select2-drop {
+    z-index: 999999;
+}
+
+.redux-main .redux-option-image {
+    max-width: 42% !important;
+    margin-right: 3%;
+}
+
+.redux-main .customize-control {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+
+.redux-main .customize-control:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.redux-container-password input {
+    width: 100%;
+}
+
+.redux-main .redux-main .upload {
+    width: 100% !important;
+}
+
+.rAds {
+    position: inherit !important;
+    right: 0 !important;
+    top: 0 !important;
+    text-align: center;
+}
+
+
+
+
