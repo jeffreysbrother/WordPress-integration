@@ -1,15 +1,15 @@
 <?php
 
-add_theme_support( 'menus' );
+  add_theme_support( 'menus' );
 
-function register_theme_menus() {
-  register_nav_menus(
-    array(
-      'primary-menu' => __( 'Primary Menu' )
-    )
-  );
-}
-add_action( 'init', 'register_theme_menus' );
+  function register_theme_menus() {
+    register_nav_menus(
+      array(
+        'primary-menu' => __( 'Primary Menu' )
+      )
+    );
+  }
+  add_action( 'init', 'register_theme_menus' );
 
 
   function jb_theme_styles() {
@@ -24,6 +24,18 @@ add_action( 'init', 'register_theme_menus' );
 
   }
   add_action( 'wp_enqueue_scripts', 'jb_theme_styles' );
+
+
+  //try to add jQuery (my app.js file doesn't work without this section)
+  function include_jQuery() {
+    if (!is_admin()) {
+        // comment out the next two lines to load the local copy of jQuery
+        wp_deregister_script('jquery');
+        wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', false, '1.8.3');
+        wp_enqueue_script('jquery');
+    }
+  }
+  add_action('init', 'include_jQuery');
 
 
   function jb_theme_js() {
