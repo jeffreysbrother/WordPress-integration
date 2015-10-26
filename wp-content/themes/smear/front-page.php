@@ -11,7 +11,7 @@
 
       <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-          <img src="img/james_smear_resize.jpg" width="698" height="632" alt="strange image of james" class="img-responsive center-block smear">
+          <img src="/wp-content/themes/smear/img/compressed/james_smear_resize.jpg" width="698" height="632" alt="strange image of james" class="img-responsive center-block smear">
         </div>
       </div>
 

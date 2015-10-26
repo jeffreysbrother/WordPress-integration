@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-10 col-md-offset-1 last-paragraph about">
-      <img src="/img/james_face_edit_small.jpg" width="180" height="184" alt="photo of james" class="img-thumbnail james">
+      <img src="/wp-content/themes/smear/img/compressed/james_face_edit_small.jpg" width="180" height="184" alt="photo of james" class="img-thumbnail james">
 
       <p class="text-muted">My name is James Cool. I'm usually interested in music, and I'm sometimes interested in philosophy. I've also recently picked up programming and photography.</p>
 
