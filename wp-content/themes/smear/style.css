@@ -206,6 +206,14 @@ ul.post-categories li a:hover {
   color: orangered;
 }
 
+/*blog post comment styles*/
+
+div#respond h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
 
 @media screen and (max-width: 991px) {
   /* line 118, ../sass/screen.scss */
