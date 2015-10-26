@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-10 col-md-offset-1 center last-paragraph">
+    <div class="col-md-4 col-md-offset-4 center ">
 
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
       	<?php if ( is_front_page() ) { ?>
