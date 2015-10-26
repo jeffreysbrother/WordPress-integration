@@ -188,10 +188,22 @@ h2 a.blog-link {
   font-family: 'Oswald', sans-serif;
 }
 
+h2 a:hover {
+  color: #555;
+}
+
 ul.post-categories {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+ul.post-categories li a {
+  text-decoration: none;
+}
+
+ul.post-categories li a:hover {
+  color: orangered;
 }
 
 

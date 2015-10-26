@@ -8,7 +8,7 @@
 
         <h2><a class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
-        <p><?php the_category(); ?></p>
+        <p class="blog-cat"><?php the_category(); ?></p>
         <p class="text-muted"><?php the_date(); ?></p>
         <p class="text-muted"><?php the_excerpt(); ?></p>
 
