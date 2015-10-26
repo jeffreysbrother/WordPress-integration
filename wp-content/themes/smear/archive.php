@@ -4,7 +4,33 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2 last-paragraph">
 
-  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <?php if ( have_posts() ) :
+
+    ?>
+
+    <h2><?php
+
+    if(is_category()) {
+      single_cat_title();
+    } elseif(is_tag()) {
+      single_tag_title();
+    } elseif(is_author()){
+      the_post();
+      echo 'Author Archives: ' . get_the_author();
+      rewind_posts();
+    } elseif(is_day()) {
+      echo 'Daily Archives: ' . get_the_date();
+    } elseif(is_month()) {
+      echo 'Monthly Archives: ' . get_the_date('F Y');
+    } elseif(is_year()) {
+      echo 'Yearly Archives: ' . get_the_date('Y');
+    } else {
+      echo 'Archives';
+    }
+
+    ?></h2>
+
+    <?php while ( have_posts() ) : the_post(); ?>
 
     <h2><a  class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
@@ -23,8 +49,8 @@
           }
         ?>
     </p>
-    
-    <p class="text-muted"><?php the_content(); ?></p>
+
+    <p class="text-muted"><?php the_excerpt(); ?></p>
 
   <?php endwhile; else : ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>

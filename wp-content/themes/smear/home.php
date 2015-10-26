@@ -8,10 +8,25 @@
 
         <h2><a class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
-        <p class="blog-cat"><?php the_category(); ?></p>
-        <p class="text-muted"><?php the_date(); ?></p>
-        <p class="text-muted"><?php the_excerpt(); ?></p>
+        <p class="text-muted"><?php the_time('F jS, Y'); ?> | <?php the_author(); ?> | Posted in
 
+            <?php
+              $categories = get_the_category();
+              $separator = ", ";
+              $output = '';
+
+              if($categories) {
+                foreach($categories as $category) {
+                  $output .= '<a href=" ' . get_category_link($category->term_id) . ' ">' . $category->cat_name . '</a>' . $separator;
+                }
+                echo trim($output, $separator);
+              }
+            ?>
+        </p>
+        
+        <p class="text-muted"><?php echo get_the_excerpt(); ?>
+          <a href="<?php the_permalink(); ?>">Read more &raquo;</a>
+        </p>
       <?php endwhile; else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
