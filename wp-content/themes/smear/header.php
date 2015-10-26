@@ -25,7 +25,7 @@
     <![endif]-->
   </head>
 
-<body <?php body_class(); ?>>
+<body>
 
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">

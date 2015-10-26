@@ -8,7 +8,6 @@
             badgesAmount: 7
         });
 
-
       // the script below allows only one audio track to play at a given time
         $("audio").on("play", function() {
           $("audio").not(this).each(function(index, audio) {
@@ -16,7 +15,6 @@
           });
         });
 
-
         //scroll to the error
-        
+
   });

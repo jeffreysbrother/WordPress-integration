@@ -23,12 +23,15 @@
           }
         ?>
     </p>
-    
+
     <p class="text-muted"><?php the_content(); ?></p>
+    <hr>
 
   <?php endwhile; else : ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
   <?php endif; ?>
+
+  <?php comments_template(); ?>
 
     </div>
   </div>
