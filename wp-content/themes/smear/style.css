@@ -236,7 +236,12 @@ h3#comments {
 
 .comment-body p {
   padding-top: 8px;
-  padding-bottom: 4px;
+  /*padding-bottom: 4px;*/
+}
+
+.comment-body {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted gray;
 }
 
 h2.archive-section {
