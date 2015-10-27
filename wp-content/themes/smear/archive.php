@@ -50,7 +50,7 @@
         ?></span>
     </p>
 
-    <p class="text-muted"><?php the_excerpt(); ?></p>
+    <p class="text-muted"><?php echo get_the_excerpt(); ?></p>
 
   <?php endwhile; else : ?>
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>

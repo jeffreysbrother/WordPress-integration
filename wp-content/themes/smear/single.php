@@ -24,7 +24,7 @@
         ?></span>
     </p>
 
-    <p class="text-muted"><?php the_content(); ?></p>
+    <p class="text-muted"><?php echo get_the_content(); ?></p>
     <hr>
 
   <?php endwhile; else : ?>
