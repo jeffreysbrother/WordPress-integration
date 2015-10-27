@@ -214,6 +214,31 @@ div#respond h3 {
   font-family: 'Oswald', sans-serif;
 }
 
+cite.fn {
+  font-style: normal;
+  font-weight: bold;
+}
+
+div.comment-meta a {
+  color: #777;
+}
+
+/*.commentlist {
+  font-size: .9em;
+}*/
+
+h3#comments {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: #999;
+}
+
+.comment-body p {
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
 
 @media screen and (max-width: 991px) {
   /* line 118, ../sass/screen.scss */

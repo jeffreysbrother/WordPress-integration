@@ -23,10 +23,15 @@
               }
             ?>
         </p>
-        
+
         <p class="text-muted"><?php echo get_the_excerpt(); ?>
           <a href="<?php the_permalink(); ?>">Read more &raquo;</a>
         </p>
+
+        <!-- pagination ... next two divs-->
+        <div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+        <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+
       <?php endwhile; else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
