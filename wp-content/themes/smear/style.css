@@ -244,6 +244,14 @@ h2.archive-section {
   color: #B9723F;
 }
 
+ol.commentlist, ul.children {
+  list-style: none;
+}
+
+ol.commentlist {
+  padding-left: 0;
+}
+
 
 @media screen and (max-width: 991px) {
   /* line 118, ../sass/screen.scss */
