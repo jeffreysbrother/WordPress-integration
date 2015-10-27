@@ -336,10 +336,10 @@ ol.commentlist {
   }
 
   /* line 182, ../sass/screen.scss */
-  .about {
+  /*.about {
     padding-left: 5px;
     padding-right: 5px;
-  }
+  }*/
 }
 
 @media (max-width: 440px) {
