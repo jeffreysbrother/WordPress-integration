@@ -8,7 +8,7 @@
 
     ?>
 
-    <h2><?php
+    <h2 class="archive-section"><?php
 
     if(is_category()) {
       single_cat_title();

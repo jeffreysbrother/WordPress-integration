@@ -239,6 +239,11 @@ h3#comments {
   padding-bottom: 4px;
 }
 
+h2.archive-section {
+  font-size: 19px;
+  color: #B9723F;
+}
+
 
 @media screen and (max-width: 991px) {
   /* line 118, ../sass/screen.scss */
