@@ -241,7 +241,7 @@ h3#comments {
 
 .comment-body {
   margin-bottom: 15px;
-  border-bottom: 1px dotted gray;
+  border-bottom: 1px dashed #ddd;
 }
 
 h2.archive-section {
