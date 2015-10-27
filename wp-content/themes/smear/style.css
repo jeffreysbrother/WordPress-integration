@@ -342,4 +342,12 @@ h3#comments {
   div.wpcf7-validation-errors {
     margin-top: 0;
   }
+
+  span.pipe {
+    display: none;
+  }
+
+  span.category-part {
+    display: block;
+  }
 }

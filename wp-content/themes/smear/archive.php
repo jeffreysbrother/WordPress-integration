@@ -34,7 +34,7 @@
 
     <h2><a  class="blog-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
-    <p class="text-muted"><?php the_time('F jS, Y'); ?> | <?php the_author(); ?> | Posted in
+    <p class="text-muted"><?php the_time('F jS, Y'); ?> | <?php the_author(); ?> <span class="pipe">|</span> <span class="category-part">Posted in
 
         <?php
           $categories = get_the_category();
@@ -47,7 +47,7 @@
             }
             echo trim($output, $separator);
           }
-        ?>
+        ?></span>
     </p>
 
     <p class="text-muted"><?php the_excerpt(); ?></p>
