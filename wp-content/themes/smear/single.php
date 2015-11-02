@@ -31,7 +31,7 @@
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
 
-      <?php comments_template(); ?>
+      <?php comments_template('custom-comments.php'); ?>
 
     </div>
   </div>
