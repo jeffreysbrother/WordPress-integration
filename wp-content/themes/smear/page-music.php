@@ -7,7 +7,8 @@
           <h1 class="originals">original music</h1>
 
           <p id="music-intro">
-            This is a small collection of my music. I've decided to include only those compositions that I consider to be somewhat palatable. Click on the title to see more information about the track.
+            <!-- This is a small collection of my music. I've decided to include only those compositions that I consider to be somewhat palatable. -->
+            Click on the title to see more info.
           </p>
 
 
