@@ -8,7 +8,7 @@
 
           <p id="music-intro">
             <!-- This is a small collection of my music. I've decided to include only those compositions that I consider to be somewhat palatable. -->
-            Click on the title to see more info.
+            Click on a title below to see more info.
           </p>
 
 
