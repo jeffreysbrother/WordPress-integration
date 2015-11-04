@@ -6,9 +6,9 @@
 
           <h1 class="originals">original music</h1>
 
-          <p id="music-intro">
+          <!-- <p id="music-intro">
             This is a small collection of my music. I've decided to include only those compositions that I consider to be somewhat palatable. Click on the title to see more information about the track.
-          </p>
+          </p> -->
 
 
           <h5 type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="OP. 1 NO. 1" data-information="This piece was created using REAPER. This is not saying much because everything I've done in the last three years has been produced with this software. In 2011, the laptop I was using to run a Pro Tools rig finally gave out on me and so, not having a firewire port on my replacement machine, I started using REAPER. This situation caused me to start using synthesizers more frequently (ReaSynth exclusively) because I was no longer able to interface my microphones with my computer.">OP. 1 NO. 1</h5>
@@ -54,7 +54,7 @@
 
 <!-- button -->
 <br>
-<button type="button" class="btn btn-default center-block" id="music-button" data-toggle="modal" data-target="#Modal2" data-whatever="Why I don't trust aestheticians">Why I don't trust aestheticians</button>
+<button type="button" class="btn btn-default aes-button" id="music-button" data-toggle="modal" data-target="#Modal2" data-whatever="Why I don't trust aestheticians">Why I don't trust aestheticians</button>
 
 
 <!-- modal for each individual track -->
