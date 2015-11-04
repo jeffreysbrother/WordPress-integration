@@ -52,16 +52,12 @@
           </audio>
 
 
-
-
-
-
-
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button> -->
-
+<!-- button -->
 <br>
-<button type="button" class="btn btn-default center-block" id="music-button" data-toggle="modal" data-target="#exampleModal" data-whatever="the nature of art">Why I don't trust aestheticians</button>
+<button type="button" class="btn btn-default center-block" id="music-button" data-toggle="modal" data-target="#Modal2" data-whatever="Why I don't trust aestheticians">Why I don't trust aestheticians</button>
 
+
+<!-- modal for each individual track -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -70,9 +66,7 @@
         <h4 class="modal-title" id="exampleModalLabel"></h4>
       </div>
       <div class="modal-body">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -82,11 +76,42 @@
 </div>
 
 
+<!-- modal for bottom aesthetics button -->
+<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Why I don't trust aestheticians</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          By "aesthetician" I intend to refer to the practitioner of aesthetics (the deformed branch of philosophy) and not to those skin care specialists employed by salons and medical spas.
+        </p>
 
+        <p>
+          Instead of first asking whether a particular line of inquiry is legitimate, the aesthetician (like the student of ethics) simply accepts the ancient and bloated ontology in its entirety and then proceeds down the lazy road of obscure, sensationalist twaddle while pretending to conduct some kind of praiseworthy investigation. Economy, clarity, logic, and sense are discarded in favor of fluffy, clear-flavored bits of heavy nonsense pinched off by a twitching rectum connected to some embarassing amalgamation of social theory and psychology.
+        </p>
 
+        <p>
+          What is lost by admitting that the story ends with sensation? The organism experiences his environment. He has thoughts and emotions. He says things. Classifies. Judges. Why attempt to uncover The Good when it appears to be intimitely connected with the subject? Wouldn't this amount to attempting to erect an object in place of a feeling? I believe philosophy would be benefited if all university courses on ethics and aesthetics were reduced to history courses. There should be no further study because we can get by much easier than traditionally imagined.
+        </p>
 
+        <p>
+          In ethics, instead of insisting that certain actions are right or wrong, we will label an action (murder, for example) "disgusting". We lose nothing to this emotivism and moral fictionalism 1) because the hideousness of an action is what prompted punishment in the first place, and 2) because this emotion---while subjective---is sufficiently universal. In aesthetics, instead of conducting a dishonest search of The Good, we will instead observe humbly what types of sitmulii bring pleasure while others do not. "Some people enjoy x." There is nothing more to say.
+        </p>
 
+        <p>
+          It seems to me that aesthetical realists are either just lazy thinkers or they are aroused by an alignment of opinion. What a great feeling it must be to convert mere preferences into a series of dazzling, external objects viewable only by those graced with such patience and cultural/moral/spiritual/psychological fortitude! How exciting to override emotional responses with fluffy cogitation!! How wonderful to pump the world full of fictitious entities and then to feign discovery of said fictions!!!
+        </p>
 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
