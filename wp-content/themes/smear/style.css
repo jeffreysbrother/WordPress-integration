@@ -34,7 +34,7 @@ h5 {
   padding-bottom: 7px;
   margin-top: 10px;
   border-bottom: 1px solid #bbb;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   max-width: 300px;
 }
 
@@ -255,6 +255,29 @@ ol.commentlist, ul.children {
 
 ol.commentlist {
   padding-left: 0;
+}
+
+/*music page*/
+#appear {
+  display: none;
+}
+
+div.col-sm-4.center.last-paragraph h5 {
+  cursor: pointer;
+}
+
+div.col-sm-4.center.last-paragraph h5:hover {
+  color: #337ab7;
+}
+
+#music-intro {
+  margin-bottom: 20px;
+  text-align: justify;
+  max-width: 290px;
+}
+
+#music-button {
+  margin-top: 25px;
 }
 
 
