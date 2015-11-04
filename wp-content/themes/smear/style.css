@@ -393,3 +393,10 @@ div.col-sm-4.center.last-paragraph h5:hover {
     display: block;
   }
 }
+
+/*this fixes the fact that the button on the music page becomes un-centered in larger viewports*/
+@media screen and (min-width: 1200px) {
+  #music-button {
+    margin-right: 100px;
+  }
+}

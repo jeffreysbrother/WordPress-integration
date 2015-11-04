@@ -105,6 +105,14 @@
           It seems to me that aesthetical realists are either just lazy thinkers or they are aroused by an alignment of opinion. What a great feeling it must be to convert mere preferences into a series of dazzling, external objects viewable only by those graced with such patience and cultural/moral/spiritual/psychological fortitude! How exciting to override emotional responses with fluffy cogitation!! How wonderful to pump the world full of fictitious entities and then to feign discovery of said fictions!!!
         </p>
 
+        <p>
+          So, aesthetics and ethics both appear to disregard economy of theory and the importance of a term's unique explanatory power. To fuel the selfish desire to eliminate differences in sensation, sensation is forced ouside the individual into some non-empirical universal immune to pedantic and unscientific investigation. Obscure philosophy takes over. Where logic leaves off, therapy and spirituality intervenes.
+        </p>
+
+        <p>
+          Before this is over, I need to clarify one thing. I imagine that some might suspect me of supporting a version of extreme subjectivism or skepticism about the external world. If a complete story of ethics and aesthetics ends with sensation, shouldn't an empirical theory about our environment do the same? In other words, why consider physical obejcts to be real if we think morals and aesthetical truths are fictions? Here is my response: we must assume that our environment has a real external existence because it is what causes these feelings within us (moral aversion, auditory pleasure, etc). Most everyone (even the aesthetician) would admit this. We can get by without the notion of an objective good/bad and an objective right/wrong by simply consulting our emotional responses. We cannot get rid of "The World" in the same way.
+        </p>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
