@@ -41,7 +41,7 @@
             <p>Your browser does not support the <code>audio</code> element.</p>
           </audio>
 
-          <h5 type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="THEORETICAL FLIM-FLAM" data-information="Hitler used this phrase in his autobiography. I decided to erect a nerdy, little tune in it's honor. I believe I decreased the bitrate of the track using a delay plugin; this would account for the fuzzy disintegration of the reverb tail.">THEORETICAL FLIM-FLAM</h5>
+          <h5 type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="THEORETICAL FLIM-FLAM" data-information="Hitler used the phrase THEORETICAL FLIM FLAM in his autobiography. I decided to erect a nerdy, little tune to commemorate this excellent phrase. I probably decreased the bitrate of the track using a delay plugin and tossed a slow-reacting pitch shifter on the drums to add that clanky kind of sound to the hi-hat; this would account for the fuzzy disintegration of the reverb tail.">THEORETICAL FLIM-FLAM</h5>
           <audio src="/wp-content/themes/smear/audio/theoretical_flim-flam.mp3" controls>
             <p>Your browser does not support the <code>audio</code> element.</p>
           </audio>
@@ -85,33 +85,14 @@
         <h4 class="modal-title" id="exampleModalLabel">Why I don't trust aestheticians</h4>
       </div>
       <div class="modal-body">
-        <p>
-          By "aesthetician" I intend to refer to the practitioner of aesthetics (the deformed branch of philosophy) and not to those skin care specialists employed by salons and medical spas.
-        </p>
 
-        <p>
-          Instead of first asking whether a particular line of inquiry is legitimate, the aesthetician (like the student of ethics) simply accepts the ancient and bloated ontology in its entirety and then proceeds down the lazy road of obscure, sensationalist twaddle while pretending to conduct some kind of praiseworthy investigation. Economy, clarity, logic, and sense are discarded in favor of fluffy, clear-flavored bits of heavy nonsense pinched off by a twitching rectum connected to some embarassing amalgamation of social theory and psychology.
-        </p>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-        <p>
-          What is lost by admitting that the story ends with sensation? The organism experiences his environment. He has thoughts and emotions. He says things. Classifies. Judges. Why attempt to uncover The Good when it appears to be intimitely connected with the subject? Wouldn't this amount to attempting to erect an object in place of a feeling? I believe philosophy would be benefited if all university courses on ethics and aesthetics were reduced to history courses. There should be no further study because we can get by much easier than traditionally imagined.
-        </p>
+          <?php the_content(); ?>
 
-        <p>
-          In ethics, instead of insisting that certain actions are right or wrong, we will label an action (murder, for example) "disgusting". We lose nothing to this emotivism and moral fictionalism 1) because the hideousness of an action is what prompted punishment in the first place, and 2) because this emotion---while subjective---is sufficiently universal. In aesthetics, instead of conducting a dishonest search of The Good, we will instead observe humbly what types of sitmulii bring pleasure while others do not. "Some people enjoy x." There is nothing more to say.
-        </p>
-
-        <p>
-          It seems to me that aesthetical realists are either just lazy thinkers or they are aroused by an alignment of opinion. What a great feeling it must be to convert mere preferences into a series of dazzling, external objects viewable only by those graced with such patience and cultural/moral/spiritual/psychological fortitude! How exciting to override emotional responses with fluffy cogitation!! How wonderful to pump the world full of fictitious entities and then to feign discovery of said fictions!!!
-        </p>
-
-        <p>
-          So, aesthetics and ethics both appear to disregard economy of theory and the importance of a term's unique explanatory power. To fuel the selfish desire to eliminate differences in sensation, sensation is forced ouside the individual into some non-empirical universal immune to pedantic and unscientific investigation. Obscure philosophy takes over. Where logic leaves off, therapy and spirituality intervenes.
-        </p>
-
-        <p>
-          Before this is over, I need to clarify one thing. I imagine that some might suspect me of supporting a version of extreme subjectivism or skepticism about the external world. If a complete story of ethics and aesthetics ends with sensation, shouldn't an empirical theory about our environment do the same? In other words, why consider physical obejcts to be real if we think morals and aesthetical truths are fictions? Here is my response: we must assume that our environment has a real external existence because it is what causes these feelings within us (moral aversion, auditory pleasure, etc). Most everyone (even the aesthetician) would admit this. We can get by without the notion of an objective good/bad and an objective right/wrong by simply consulting our emotional responses. We cannot get rid of "The World" in the same way.
-        </p>
+        <?php endwhile; else : ?>
+          <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        <?php endif; ?>
 
       </div>
       <div class="modal-footer">
