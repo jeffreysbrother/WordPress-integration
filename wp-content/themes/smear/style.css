@@ -179,8 +179,6 @@ li.current-menu-item a:visited {
   background-color: #e7e7e7;
 }
 
-
-
 /*blog styles*/
 
 h2 a.blog-link {
@@ -225,10 +223,6 @@ div.comment-meta a {
   color: #777;
 }
 
-/*.commentlist {
-  font-size: .9em;
-}*/
-
 h3#comments {
   text-transform: uppercase;
   font-size: 18px;
@@ -260,13 +254,6 @@ ol.commentlist {
 }
 
 /*music page*/
-
-/*#music-intro {
-  margin-bottom: 20px;
-  text-align: justify;
-  max-width: 300px;
-}*/
-
 
 .aes-button {
   width: 100%;
@@ -387,10 +374,3 @@ ol.commentlist {
     display: block;
   }
 }
-
-/*this fixes the fact that the button on the music page becomes un-centered in larger viewports*/
-/*@media screen and (min-width: 1200px) {
-  #music-button {
-    margin-right: 104px;
-  }
-}*/
