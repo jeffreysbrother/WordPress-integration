@@ -8,7 +8,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>jeffreysbrother | music, etc</title>
-    <meta name="description" content= "<?php echo $pageDescription; ?>" >
+    <!-- <meta name="description" content= "<?php echo $pageDescription; ?>" > -->
     <meta name="author" content="James Cool">
     <!--not sure if the open graph images below are working on Facebook -->
     <meta property="og:type" content="website" />
