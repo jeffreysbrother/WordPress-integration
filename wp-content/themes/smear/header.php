@@ -3,18 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- swapped the meta tag for the one below to prevent auto zoom when form fields are active -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>jeffreysbrother | music, etc</title>
     <meta name="author" content="James Cool">
-    <!--not sure if the open graph images below are working on Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="jeffreysbrother | music, etc" />
-    <meta property="og:description" content="<?php echo $pageDescription; ?>" />
-    <meta property="og:image" content="<?php echo $fbImage; ?>" />
-    <meta property="og:url" content="<?php echo $fbURL; ?>" />
     <link rel="icon" href="../../favicon.ico">
     <?php wp_head(); ?>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
