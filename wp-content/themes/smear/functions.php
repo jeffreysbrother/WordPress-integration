@@ -48,4 +48,11 @@
   add_action( 'wp_enqueue_scripts', 'jb_theme_js' );
 
 
+  //developing the customizer
+  function mytheme_customize_register( $wp_customize ) {
+   //All our sections, settings, and controls will be added here
+  }
+  add_action( 'customize_register', 'mytheme_customize_register' );
+
+
  ?>
